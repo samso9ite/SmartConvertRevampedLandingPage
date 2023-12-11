@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<!-- 
+Template Name: Bit Money
+Version: 1.0.0
+Author: 
+Website: 
+Purchase: 
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <title>Smart Convert</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="description" content="Bit Money" />
+    <meta name="keywords" content="Bit Money" />
+    <meta name="author" content="" />
+    <meta name="MobileOptimized" content="320" />
+    <!--srart theme style -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="css/flaticon.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css" />
+    <link rel="stylesheet" type="text/css" href="js/plugin/rs_slider/layers.css" />
+    <link rel="stylesheet" type="text/css" href="js/plugin/rs_slider/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="js/plugin/rs_slider/settings.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <!-- favicon links -->
+    <link rel="shortcut icon" type="image/png" href="images/fav.png" />
+</head>
+
+<body>
+    <!-- preloader Start -->
+    <div id="preloader">
+        <div id="status"><img src="images/header/bitcoin-globe.gif" id="preloader_image" alt="loader">
+        </div>
+    </div>
+    <!-- btc top header wrapper Start -->
+    <div class="btc_top_header_main_wrapper">
+        <div class="container-fluid">
+            <div class="btc_left_top_header_wrapper">
+                <p class="btc_topheader_welcome_pera">Welcome to SmartConvert</p>
+                <div id="ticker_window">
+                    <div id="day_and_time">
+                        <p id="date" class="hidden-xs"></p>
+                        <p id="clock" class="hidden-xs"></p>
+                        <ul id="ticker">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="btc_right_top_header_wrapper">
+                <ul>
+                    <li class="btc_topheader_welcome_pera"><i class="flaticon-phone-call"></i> Contact Number: +234 703 2829 121</li>
+                    <li><a href="https://app.smartconvert.ng/signin"><i class="flaticon-profile"></i> LOGIN</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- btc top header wrapper End -->
+    <!-- Header Wrapper Start -->
+    <div class="gc_main_menu_wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 hidden-xs">
+                    <div class="gc_header_wrapper">
+                        <div class="gc_logo">
+                            <a href="index.html"><img src="images/header/logo.png" alt="Logo" title="Bit Money"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                    <div class="header-area hidden-menu-bar stick" id="sticker">
+                        <!-- mainmenu start -->
+                        <div class="gc_right_menu hidden-xs">
+                            <ul>
+                               
+                                <li class="btc_join_navi_btn" ><a href="">CREATE AN ACCOUNT</a></li>
+                            </ul>
+                        </div>
+                        <div class="mainmenu hidden-xs">
+                            <ul>
+                                <li class="gc_main_navigation parent"><a href="index.html" class="gc_main_navigation">Home</a></li>
+                                <li class="has-mega gc_main_navigation"><a href="https://app.smartconvert.ng/" class="gc_main_navigation">  Buy & Sell</a> </li>
+                                <li class="gc_main_navigation parent"><a href="verification.html" class="gc_main_navigation">Verification</a></li>
+                            </ul>
+                        </div>
+                        <!-- mainmenu end -->
+                        <!-- mobile menu area start -->
+                        <div class="rp_mobail_menu_main_wrapper visible-xs">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="gc_logo">
+                                        <a href="index.html"><img src="images/header/logo.png" alt="Logo" title="Bit Money"></a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div id="toggle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.177 31.177" style="enable-background:new 0 0 31.177 31.177;" xml:space="preserve" width="25px" height="25px"><g><g><path class="menubar" d="M30.23,1.775H0.946c-0.489,0-0.887-0.398-0.887-0.888S0.457,0,0.946,0H30.23    c0.49,0,0.888,0.398,0.888,0.888S30.72,1.775,30.23,1.775z" fill="#000000"/></g><g><path class="menubar" d="M30.23,9.126H12.069c-0.49,0-0.888-0.398-0.888-0.888c0-0.49,0.398-0.888,0.888-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,8.729,30.72,9.126,30.23,9.126z" fill="#000000"/></g><g><path class="menubar" d="M30.23,16.477H0.946c-0.489,0-0.887-0.398-0.887-0.888c0-0.49,0.398-0.888,0.887-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,16.079,30.72,16.477,30.23,16.477z" fill="#000000"/></g><g><path class="menubar" d="M30.23,23.826H12.069c-0.49,0-0.888-0.396-0.888-0.887c0-0.49,0.398-0.888,0.888-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,23.43,30.72,23.826,30.23,23.826z" fill="#000000"/></g><g><path class="menubar" d="M30.23,31.177H0.946c-0.489,0-0.887-0.396-0.887-0.887c0-0.49,0.398-0.888,0.887-0.888H30.23    c0.49,0,0.888,0.398,0.888,0.888C31.118,30.78,30.72,31.177,30.23,31.177z" fill="#000000"/></g></g></svg>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="sidebar">
+                                <h1><a href="#">Bit Money</a></h1>
+                                <div id="toggle_close">&times;</div>
+                                <div id='cssmenu'>
+                                    <ul>
+                                        <li><a href='index.html'>Home</a></li>
+                                        <li><a href='https://app.smartconvert.ng/'>Buy & Sell</a></li>
+                                        <li><a href='verification.html'>Verification</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- mobile menu area end -->
+            </div>
+        </div>
+    </div>
+    <!-- Header Wrapper End -->
+    <!-- CC slider Wrapper Start -->
+    <div class="btc_main_slider_main_wrapper">
+        <div id="rev_slider_24_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="website-intro" data-source="gallery" style="background:#000000;padding:0px;">
+            <!-- START REVOLUTION SLIDER 5.4.1 fullscreen mode -->
+            <div id="rev_slider_24_1" class="rev_slider fullscreenbanner tiny_bullet_slider" style="display:none;" data-version="5.4.1">
+                <ul>
+                    <!-- SLIDE  -->
+                    <li data-index="rs-67" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="600" data-thumb="../../assets/images/woman2-100x50.jpg" data-rotate="0"
+                        data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" data-slicey_shadow="0px 0px 0px 0px transparent">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/main_bg.jpg" alt="" data-bgposition="center center" data-kenburns="off" data-duration="0"  data-scalestart="100" data-scaleend="150" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0"
+                            data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
+                        <!-- LAYERS -->
+
+
+
+                        <!-- LAYER NR. 14 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper " id="slide-67-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full" data-height="full"
+                            data-whitespace="nowrap" data-type="shape" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":10,"speed":500,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 18;background-color:rgba(0, 0, 0, 0.5);">
+                        </div>
+
+                        <!-- LAYER NR. 15 -->
+                        <div class="tp-caption   tp-resizeme btc_slider_left_border" id="slide-68-layer-2" data-x="['left','left','center','center']" data-hoffset="['1','1','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-70']" data-fontsize="['54','54','30','20']"
+                            data-lineheight="['60','60','35','25']" data-width="['none','none','481','360']" data-height="none" data-whitespace="['nowrap','nowrap','normal','normal']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:0.9;sY:0.9;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"sX:0.9;sY:0.9;opacity:0;fb:20px;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 19; white-space: nowrap; font-size: 90px; line-height: 90px; font-weight: 500; color: #ffffff; letter-spacing: 1px;font-family: 'Raleway', sans-serif;">SWEET RATE<br> SWIFT PAYMENT</div>
+
+
+                        <!-- LAYER NR. 16 -->
+                        <div class="tp-caption   tp-resizeme " id="slide-69-layer-3" data-x="['left','left','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['50','50','60','30']" data-fontsize="['22','22','22','22']"
+                            data-lineheight="['30','30','30','30']" data-width="['480','480','480','360']" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:0.9;sY:0.9;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"sX:0.9;sY:0.9;opacity:0;fb:20px;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 20; min-width: 480px; max-width: 480px; white-space: normal; font-size: 22px; line-height: 30px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family: 'Lato', sans-serif;">We Make it Easy to Buy and Sell coin with sweet rate.</div>
+
+                        <!-- LAYER NR. 17 -->
+                        <a class="tp-caption rev-btn  tp-resizeme" href="#" target="_blank" id="slide-70-layer-7" data-x="['left','left','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['150','150','160','120']"
+                            data-width="210" data-height="none" data-whitespace="nowrap" data-type="button" data-actions='' data-responsive_offset="on" data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:0.9;sY:0.9;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"sX:0.9;sY:0.9;opacity:0;fb:20px;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0;","style":"c:rgba(255,255,255,1);bs:solid;bw:0 0 0 0;"}]'
+                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 21; min-width: 210px; max-width: 210px; white-space: nowrap; font-size: 16px; line-height: 50px; font-weight: 900; color: #ffffff; letter-spacing: 2px;font-family: 'Lato', sans-serif;background-color:#651530;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;text-transform:uppercase;">Create an account </a>
+                    </li>
+
+                    <!-- SLIDE  -->
+                    <li data-index="rs-68" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="600" data-thumb="../../assets/images/reachout_bg-100x50.jpg" data-rotate="0"
+                        data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" data-slicey_shadow="0px 0px 0px 0px transparent">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/main_bg3.jpg" alt="" data-bgposition="center center" data-kenburns="off" data-duration="5000" data-ease="Power2.easeInOut" data-scalestart="100" data-scaleend="150" data-rotatestart="0" data-rotateend="0" data-blurstart="20"
+                            data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
+                        <!-- LAYERS -->
+
+
+
+                        <!-- LAYER NR. 48 -->
+                        <div class="tp-caption tp-shape tp-shapewrapper " id="slide-75-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full" data-height="full"
+                            data-whitespace="nowrap" data-type="shape" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":10,"speed":500,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 18;background-color:rgba(0, 0, 0, 0.5);">
+                        </div>
+
+                        <div class="tp-caption   tp-resizeme btc_slider_left_border" id="slide-68-layer-2" data-x="['left','left','center','center']" data-hoffset="['1','1','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-70']" data-fontsize="['54','54','30','20']"
+                            data-lineheight="['60','60','35','25']" data-width="['none','none','481','360']" data-height="none" data-whitespace="['nowrap','nowrap','normal','normal']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:0.9;sY:0.9;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"sX:0.9;sY:0.9;opacity:0;fb:20px;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 19; white-space: nowrap; font-size: 90px; line-height: 90px; font-weight: 500; color: #ffffff; letter-spacing: 1px;font-family: 'Raleway', sans-serif;">SECURE &<br> RELIABLE</div>
+
+
+                        <!-- LAYER NR. 16 -->
+                        <div class="tp-caption   tp-resizeme " id="slide-69-layer-3" data-x="['left','left','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['50','50','60','30']" data-fontsize="['22','22','22','22']"
+                            data-lineheight="['30','30','30','30']" data-width="['480','480','480','360']" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:0.9;sY:0.9;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"sX:0.9;sY:0.9;opacity:0;fb:20px;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 20; min-width: 480px; max-width: 480px; white-space: normal; font-size: 22px; line-height: 30px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family: 'Lato', sans-serif;">We've always been here from the beginning and will always be here for your InstantFunding.</div>
+
+                        <!-- LAYER NR. 17 -->
+                        <a class="tp-caption rev-btn  tp-resizeme" href="#" target="_blank" id="slide-70-layer-7" data-x="['left','left','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['150','150','160','120']"
+                            data-width="210" data-height="none" data-whitespace="nowrap" data-type="button" data-actions='' data-responsive_offset="on" data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:0.9;sY:0.9;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"sX:0.9;sY:0.9;opacity:0;fb:20px;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0;","style":"c:rgba(255,255,255,1);bs:solid;bw:0 0 0 0;"}]'
+                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 21; min-width: 210px; max-width: 210px; white-space: nowrap; font-size: 16px; line-height: 50px; font-weight: 900; color: #ffffff; letter-spacing: 2px;font-family: 'Lato', sans-serif;background-color:#651530;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;text-transform:uppercase;">Create an account </a>
+                    </li>
+
+                </ul>
+                <div class="tp-bannertimer tp-bottom" style="height: 5px; background: rgba(204,204,204,0.5);"></div>
+            </div>
+        </div>
+        <!-- END REVOLUTION SLIDER -->
+    </div>
+
+    <div class="btc_services_indx_main_wrapper" data-parallax="scroll" data-image-src="images/content/service_bg.jpg">
+        <div class="container">
+            <div class="row">
+                <h1 class="text-center">Rate Updates</h1>
+                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 btc_ser_indx_box_margin">
+                    <div class="btc_indx_service_main_wrapper">
+                        <div class="btc_indx_ser_icon_wrapper">
+                            <img src="images/bitcoin.svg">
+                        </div>
+                        <div class="btc_indx_ser_icon_cont_wrapper">
+                            <h1> $<span id="btc_price"> </span></h1>
+                            <p> <span id="btc_buy"> </span></p>
+                            <p>  <span id="btc_sell"> </span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 btc_ser_indx_box_margin">
+                   <div class="btc_indx_service_main_wrapper">
+                        <div class="btc_indx_ser_icon_wrapper">
+                           <img src="images/ethereum.svg"  width="40%"/>
+                        </div>
+                        <div class="btc_indx_ser_icon_cont_wrapper">
+                            <h1>$<span id="eth_price"> </span> </h1>
+                            <p> <span id="eth_buy"> </span></p>
+                            <p>  <span id="eth_sell"> </span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 btc_ser_indx_box_margin">
+                    <div class="btc_indx_service_main_wrapper">
+                        <div class="btc_indx_ser_icon_wrapper">
+                           <img src="images/dogecoin.svg"/>
+                        </div>
+                        <div class="btc_indx_ser_icon_cont_wrapper">
+                            <h1> $ <span id="doge_price"> </span> </h1>
+                            <p>  <span id="doge_buy"> </span></p>
+                            <p>  <span id="doge_sell"> </span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 btc_ser_indx_box_margin">
+                    <div class="btc_indx_service_main_wrapper">
+                        <div class="btc_indx_ser_icon_wrapper">
+                            <img src="images/litecoin.svg"/>
+                        </div>
+                        <div class="btc_indx_ser_icon_cont_wrapper">
+                            <h1>  $<span id="ltc_price"> </span> </h1>
+                            <p>  <span id="litecoin_buy"> </span></p>
+                            <p>  <span id="litecoin_sell"> </span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 btc_ser_indx_box_margin">
+                    <div class="btc_indx_service_main_wrapper">
+                        <div class="btc_indx_ser_icon_wrapper">
+                           <img src="images/tether.svg"/>
+                        </div>
+                        <div class="btc_indx_ser_icon_cont_wrapper">
+                            <h1>$<span id="usdt_price"> </span> : 1</h1>
+                            <p> <span id="usdt_buy"> </span></p>
+                            <p> <span id="usdt_sell"> </span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 btc_ser_indx_box_margin">
+                    <div class="btc_indx_service_main_wrapper">
+                        <div class="btc_indx_ser_icon_wrapper">
+                            <img src="images/Perfect.png" width="37"/>
+                        </div>
+                        <div class="btc_indx_ser_icon_cont_wrapper">
+                            <h1>$ <span id="">1:1 </h1>
+                            <p>  <span id="perfectmoney_buy"> </span></p>
+                            <p>  <span id="perfectmoney_sell"> </span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 btc_ser_indx_box_margin">
+                    <div class="btc_indx_service_main_wrapper">
+                        <div class="btc_indx_ser_icon_wrapper">
+                            <img src="images/bnb.svg">
+                        </div>
+                        <div class="btc_indx_ser_icon_cont_wrapper">
+                            <h1>$ <span id="bnb_price"> </span> </h1>
+                            <p> <span id="bnb_buy"> </span></p>
+                            <p> <span id="bnb_sell"> </span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 btc_ser_indx_box_margin">
+                   <div class="btc_indx_service_main_wrapper">
+                        <div class="btc_indx_ser_icon_wrapper">
+                           <img src="images/xrp.svg"  width="40%"/>
+                        </div>
+                        <div class="btc_indx_ser_icon_cont_wrapper">
+                            <h1> $ <span id="xrp_price"> </span> </h1>
+                            <p> <span id="ripple_buy"> </span></p>
+                            <p> <span id="ripple_sell"> </span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 btc_ser_indx_box_margin">
+                    <div class="btc_indx_service_main_wrapper">
+                        <div class="btc_indx_ser_icon_wrapper">
+                           <img src="images/solana.svg"/>
+                        </div>
+                        <div class="btc_indx_ser_icon_cont_wrapper">
+                            <h1> $ <span id="solana_price"> </span> </h1>
+                            <p> <span id="sol_buy"> </span></p>
+                            <p> <span id="sol_sell"> </span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 btc_ser_indx_box_margin">
+                    <div class="btc_indx_service_main_wrapper">
+                        <div class="btc_indx_ser_icon_wrapper">
+                            <img src="images/tron.svg"/>
+                        </div>
+                        <div class="btc_indx_ser_icon_cont_wrapper">
+                            <h1> $ <span id="tron_price"> </span> </h1>
+                            <p> <span id="tron_buy"> </span></p>
+                            <p> <span id="tron_sell"> </span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 btc_ser_indx_box_margin">
+                    <div class="btc_indx_service_main_wrapper">
+                        <div class="btc_indx_ser_icon_wrapper">
+                           <img src="images/tether.svg"/>
+                        </div>
+                        <div class="btc_indx_ser_icon_cont_wrapper">
+                            <h1>98032</h1>
+                            <p>Buy: 34843</p>
+                            <p>Sell: 83287</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 btc_ser_indx_box_margin">
+                    <div class="btc_indx_service_main_wrapper">
+                        <div class="btc_indx_ser_icon_wrapper">
+                            <img src="images/Perfect.png" width="37"/>
+                        </div>
+                        <div class="btc_indx_ser_icon_cont_wrapper">
+                            <h1>88902</h1>
+                            <p>Buy: 678783</p>
+                            <p>Sell: 87932</p>
+                        </div>
+                    </div>
+                </div> -->
+          
+            </div>
+        </div>
+    </div>
+   
+    <!-- btc steps Wrapper Start -->
+    <div class="btc_steps_main_wrapper" data-parallax="scroll" data-image-src="images/content/service_bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="btc_steps_heading_wrapper">
+                        <p>How to trade on our platform</p>
+                        <h1>Simple Steps to Trade Your Coin</h1>
+                        <span>#</span>
+                        <h5>Just to ensure you have a smooth experience trading with us,<br /> we've structured our platform to enable you get instant funding with just four steps</h5>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <ul class="nav nav-pills">
+                        <li class="active"><a data-toggle="pill" href="#home">How to buy </a></li>
+                        <li><a data-toggle="pill" href="#menu1">How to sell</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="tab-content">
+                        <div id="home" class="tab-pane fade in active">
+                            <div class="row btc_steps_wrappers">
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="btc_steps_main_box_wrapper btc_steps_main_box_wrapper1">
+                                        <div class="btc_step_icon_wrapper">
+                                            <div class="btc_step_hover_effect">
+                                                <i class="flaticon-user"></i>
+                                                <div class="btc_step_overlay"></div>
+                                            </div>
+                                        </div>
+                                        <div class="btc_step_icon_cont_wrapper">
+                                            <h2><a href="#">Register & Verify ID</a></h2>
+                                            <p>Sign up and go through a simple identity verification process before creating an order</p>
+                                            <h4><a href="#">Sign Up</a></h4>
+                                            <span>1</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="btc_steps_main_box_wrapper btc_steps_main_box_wrapper2">
+                                        <div class="btc_step_icon_wrapper">
+                                            <div class="btc_step_hover_effect">
+                                                <i class="flaticon-wallet"></i>
+                                                <div class="btc_step_overlay"></div>
+                                            </div>
+                                        </div>
+                                        <div class="btc_step_icon_cont_wrapper">
+                                            <h2><a href="#">Save Bank Details</a></h2>
+                                            <p>Input your account details while our system automatically verify the account details.</p>
+                                            <h4><a href="https://app.smartconvert.ng/signin">Sign in</a></h4>
+                                            <span>2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="btc_steps_main_box_wrapper btc_steps_main_box_wrapper3">
+                                        <div class="btc_step_icon_wrapper">
+                                            <div class="btc_step_hover_effect">
+                                                <i class="flaticon-money-1"></i>
+                                                <div class="btc_step_overlay"></div>
+                                            </div>
+                                        </div>
+                                        <div class="btc_step_icon_cont_wrapper">
+                                            <h2><a href="#">Create a Buy Order</a></h2>
+                                            <p>On your dashboard, Click on the  Buy tab then fill in the required informations</p>
+                                            <h4><a href="https://app.smartconvert.ng/signup">Sign up</a></h4>
+                                            <span>3</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="btc_steps_main_box_wrapper btc_steps_main_box_wrapper4">
+                                        <div class="btc_step_icon_wrapper">
+                                            <div class="btc_step_hover_effect">
+                                                <i class="flaticon-coins"></i>
+                                                <div class="btc_step_overlay"></div>
+                                            </div>
+                                        </div>
+                                        <div class="btc_step_icon_cont_wrapper">
+                                            <h2><a href="#">Get Your Funds</a></h2>
+                                            <p>Process time is instant, once our system confirms your transaction as successful, funds will be disbursed.</p>
+                                            <h4><a href="https://app.smartconvert.ng/signin">Sign in</a></h4>
+                                            <span>4</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btc_steps_bottom_line_wrapper"></div>
+                            </div>
+
+                        </div>
+                        <div id="menu1" class="tab-pane fade">
+                            <div class="row btc_steps_wrappers">
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="btc_steps_main_box_wrapper btc_steps_main_box_wrapper1">
+                                        <div class="btc_step_icon_wrapper">
+                                            <div class="btc_step_hover_effect">
+                                                <i class="flaticon-user"></i>
+                                                <div class="btc_step_overlay"></div>
+                                            </div>
+                                        </div>
+                                        <div class="btc_step_icon_cont_wrapper">
+                                            <h2><a href="#">Register & Verify ID</a></h2>
+                                            <p>Sign up and go through a simple identity verification process before creating an order</p>
+                                            <h4><a href="#">Sign Up</a></h4>
+                                            <span>1</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="btc_steps_main_box_wrapper btc_steps_main_box_wrapper2">
+                                        <div class="btc_step_icon_wrapper">
+                                            <div class="btc_step_hover_effect">
+                                                <i class="flaticon-wallet"></i>
+                                                <div class="btc_step_overlay"></div>
+                                            </div>
+                                        </div>
+                                        <div class="btc_step_icon_cont_wrapper">
+                                            <h2><a href="#">Save Bank Details</a></h2>
+                                            <p>Input your account details while our system automatically verify the account details.</p>
+                                            <h4><a href="https://app.smartconvert.ng/signin">Sign in</a></h4>
+                                            <span>2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="btc_steps_main_box_wrapper btc_steps_main_box_wrapper3">
+                                        <div class="btc_step_icon_wrapper">
+                                            <div class="btc_step_hover_effect">
+                                                <i class="flaticon-money-1"></i>
+                                                <div class="btc_step_overlay"></div>
+                                            </div>
+                                        </div>
+                                        <div class="btc_step_icon_cont_wrapper">
+                                            <h2><a href="#">Create a Sell Order</a></h2>
+                                            <p> On your dashboard, Click on the Sell tab then fill in the required informations</p>
+                                            <h4><a href="https://app.smartconvert.ng/signup">Sign up</a></h4>
+                                            <span>3</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="btc_steps_main_box_wrapper btc_steps_main_box_wrapper4">
+                                        <div class="btc_step_icon_wrapper">
+                                            <div class="btc_step_hover_effect">
+                                                <i class="flaticon-coins"></i>
+                                                <div class="btc_step_overlay"></div>
+                                            </div>
+                                        </div>
+                                        <div class="btc_step_icon_cont_wrapper">
+                                            <h2><a href="#">Get Your Funds</a></h2>
+                                            <p>Process time is instant, once our system confirms your transaction as successful, funds will be disbursed.</p>
+                                            <h4><a href="https://app.smartconvert.ng/signin">Sign in</a></h4>
+                                            <span>4</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btc_steps_bottom_line_wrapper"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <!-- btc calcultor Wrapper Start -->
+    <div class="btc_calc_main_wrapper">
+        <div class="btc_calc_img_overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="btc_calc_heading_wrapper">
+                        <h5>Cryptocurrency Price Value Today</h5>
+                        <h3>Bitcoin Currency Calculator</h3>
+                        <span>#</span>
+                        <p>Nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat
+                            consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.</p>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="divider_30">
+                        <div class="cal-convertor">
+                            <script>
+                                baseUrl = "https://widgets.cryptocompare.com/";
+                                    var scripts = document.getElementsByTagName("script");
+                                    var embedder = scripts[ scripts.length - 1 ];
+                                    var cccTheme = {"General":{"headerText":""},"Form":{"labelFrom":"Enter amount","labelTo":"Enter amount to get"}};
+                                    (function (){
+                                    var appName = encodeURIComponent(window.location.hostname);
+                                    if(appName==""){appName="local";}
+                                    var s = document.createElement("script");
+                                    s.type = "text/javascript";
+                                    s.async = true;
+                                    var theUrl = baseUrl+'serve/v1/coin/converter?fsym=BTC&tsyms=USD,EUR,CNY,GBP';
+                                    s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+                                    embedder.parentNode.appendChild(s);
+                                    })();
+                            </script>
+                        </div>
+                        <ul>
+                            <li><a href="#">buy now</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- btc calcultor Wrapper End -->
+    <!-- btc Services Wrapper Start -->
+    <div class="btc_services_main_wrapper" data-parallax="scroll" data-image-src="images/content/service_bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="btc_services_heading_main_wrapper">
+                        <div class="btc_services_heading_wrapper">
+                            <p>SMARTCONVERT</p>
+                            <h1>Why Choose SmartConvert</h1>
+                            <span>#</span>
+                            <!-- <h5>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,<br> nisi elit consequat ipsum, nec sagittis sem nibh id elit duis sed odio sit.</h5> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="btc_left_service_main_wrapper">
+                        <div class="btc_left_ser_icon_wrapper">
+                            <i class="flaticon-money"></i>
+                        </div>
+                        <div class="btc_left_ser_icon_cont_wrapper">
+                            <h1>Safe & Secure</h1>
+                            <p>We ensure a safe and secured transaction through our encrypted platform.</p>
+                            <!-- <a href="#">Read More</a> -->
+                        </div>
+                    </div>
+                    <div class="btc_left_service_main_wrapper btc_left_service_main_wrapper2">
+                        <div class="btc_left_ser_icon_wrapper">
+                            <i class="flaticon-exchange"></i>
+                        </div>
+                        <div class="btc_left_ser_icon_cont_wrapper">
+                            <h1> Responsive Platform </h1>
+                            <p>To aid good user experience, our platform is optimized and responsive on all devices</p>
+                        </div>
+                    </div>
+                    <div class="btc_left_service_main_wrapper btc_left_service_main_wrapper2">
+                        <div class="btc_left_ser_icon_wrapper">
+                            <i class="flaticon-bitcoin-pocket-or-wallet"></i>
+                        </div>
+                        <div class="btc_left_ser_icon_cont_wrapper">
+                            <h1>Referral Bonus</h1>
+                            <p>We have a remarkable referral bonus system that gives outstanding discount and funds.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="btc_ser_center_img_wrapper">
+                        <img src="images/bag.webp" class="img-responsive" alt="service_img" />
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="btc_right_service_main_wrapper">
+                        <div class="btc_right_ser_icon_cont_wrapper">
+                            <h1>Experts Support</h1>
+                            <p>Our support system is outstanding, we ensure all issues are resolved swiftly </p>
+                        </div>
+                        <div class="btc_right_ser_icon_wrapper">
+                            <i class="flaticon-support"></i>
+                        </div>
+                    </div>
+                    <div class="btc_right_service_main_wrapper btc_right_service_main_wrapper2">
+                        <div class="btc_right_ser_icon_cont_wrapper">
+                            <h1>Instant Exchange</h1>
+                            <p>After confirming the status of your transaction as successful payment is made immediately</p>
+                        </div>
+                        <div class="btc_right_ser_icon_wrapper">
+                            <i class="flaticon-technology"></i>
+                        </div>
+                    </div>
+                    <div class="btc_right_service_main_wrapper btc_right_service_main_wrapper2">
+                        <div class="btc_right_ser_icon_cont_wrapper">
+                            <h1>Recuring Buys</h1>
+                            <p>We appreciate recuring customers and we give bonus from time to time</p>
+                        </div>
+                        <div class="btc_right_ser_icon_wrapper">
+                            <i class="flaticon-bitcoin"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- btc Services Wrapper End -->
+  
+   
+    <!-- Testimonials Wrapper Start -->
+    <div class="btc_testimonial_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="btc_testimonial_info">
+                    <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                        <!-- Bottom Carousel Indicators -->
+                              <h1 style="text-align: left;">Our Clients Review</h1>
+                            <!-- </h1>
+                        <ol class="carousel-indicators">
+                            <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="images/content/testi_img1.jpg" alt="test">
+                            </li>
+                            <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="images/content/testi_img2.jpg" alt="test">
+                            </li>
+                            <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="images/content/testi_img3.jpg" alt="test">
+                            </li>
+
+                        </ol> -->
+
+                        <!-- Carousel Slides / Quotes -->
+                        <div class="carousel-inner text-center">
+                            <div class="btc_center_line"></div>
+                            <div class="item" id="testimonial">
+                                <div class="row">
+                                    <div class="col-sm-10 col-sm-offset-2 col-xs-offset-2 btc_testi_padding_zero">
+                                        <div class="btc_testi_quote_wrapper1"></div>
+                                        <div class="btc_testi_quote_wrapper2"></div>
+                                        <p> {{tesimony.message}} </p>
+                                        <div class="btc_testi_cont_bottom_line"></div>
+                                        <h1>{{testimony.user.first_name}} {{testimony.user.last_name}}</h1>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <!-- btc footer Wrapper Start -->
+    <div class="btc_footer_main_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="btc_footer_logo_left">
+                        <a href="#"><img src="images/content/footer_logo.png" alt="logo"/></a>
+                    </div>
+                    <div class="btc_footer_logo_right">
+                        <p> 106, ikorodu road,off oyebanjo street, Fadeyi Yaba Lagos</p>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 col-lg-offset-1 col-md-offset-1">
+                    <div class="btc_footer_email_wrapper">
+                        <p>Phone : +234 703 2829 121 (8am - 5pm)</p>
+                        <p class="btc_email_footer">Email : <a href="#">info@smartconvert.ng</a></p>
+                    </div>
+                    <div class="btc_footer_social_wrapper">
+                        <ul>
+                            <li><a href="https://facebook.com/smart_convert"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/smart_convert"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://instagram.com/smart_convert"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- btc footer Wrapper End -->
+    <!-- btc bottom footer Wrapper Start -->
+    <div class="btc_bottom_footer_main_wrapper">
+        <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;"><span class="fa fa-angle-double-up"></span></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="btc_bottom_footer_left">
+                        <p>© Copyright 2023 All Right Reserved. Developed by Samso9te</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hidden-sm hidden-xs">
+                    <div class="btc_bottom_footer_right">
+                        <ul>
+                            <a href="privacy.html"><li>Privacy Policy</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- btc bottom footer Wrapper End -->
+
+
+    <script>
+        setInterval(getValues, 5000) 
+        
+        getRates()
+        function getValues(){
+        $.ajax({
+                type: "GET",
+                url: "https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,DOGE,USDT,TRX,SOL,XRP,ETH,BNB,LTC&tsyms=USD&api_key=40c4cada7ddcb05ecedb554f444d3e51924ff6115d4ed983eb868feaf50b098d",
+                success: function (result) {
+                    console.log(result.BNB.USD);
+                    document.getElementById("btc_price").innerText = result.BTC.USD 
+                    document.getElementById("eth_price").innerText = result.ETH.USD 
+                    document.getElementById("doge_price").innerText = result.DOGE.USD
+                    document.getElementById("ltc_price").innerText = result.LTC.USD
+                    document.getElementById("usdt_price").innerText = result.USDT.USD
+                    document.getElementById("tron_price").innerText = result.TRX.USD
+                    document.getElementById("solana_price").innerText = result.SOL.USD
+                    document.getElementById("bnb_price").innerText = result.BNB.USD
+                    document.getElementById("xrp_price").innerText = result.XRP.USD
+                   
+                },
+                });    
+            };
+    
+        // Get coin rates
+        function getRates(){
+            $.ajax({
+                type: "GET",
+                url: "https://api.smartconvert.ng/api/v1/list-coin",
+                success: function (result) {
+                   console.log(result)
+                    if(result[0].buy_active_status == true){
+                        document.getElementById("btc_buy").innerText ='Buy: ₦'+result[0].buy_rate; 
+                    }
+                    if(result[0].sell_active_status == true){
+                    document.getElementById("btc_sell").innerText = 'Sell: ₦'+result[0].sell_rate;
+                    }
+                    if(result[1].buy_active_status == true){
+                        document.getElementById("eth_buy").innerText = 'Buy: ₦'+result[1].buy_rate; 
+                    }
+                    if(result[1].sell_active_status == true){
+                        document.getElementById("eth_sell").innerText = 'Sell: ₦'+result[1].sell_rate; 
+                    }
+                    if(result[2].buy_active_status == true){
+                        document.getElementById("doge_buy").innerText = 'Buy: ₦'+result[2].buy_rate; 
+                    }
+                    if(result[2].sell_active_status == true){
+                        document.getElementById("doge_sell").innerText = 'Sell: ₦'+result[2].sell_rate; 
+                    }
+                    if(result[3].buy_active_status == true){
+                        document.getElementById("usdt_buy").innerText = 'Buy: ₦'+result[3].buy_rate; 
+                    }
+                    if(result[3].sell_active_status == true){
+                        document.getElementById("usdt_sell").innerText = 'Sell: ₦'+result[3].sell_rate; 
+                    }
+                    if(result[8].buy_active_status == true){
+                        document.getElementById("perfectmoney_buy").innerText = 'Buy: ₦'+result[8].buy_rate;
+                    }
+                    if(result[8].sell_active_status == true){
+                        document.getElementById("perfectmoney_sell").innerText = 'Sell: ₦'+result[8].sell_rate; 
+                    }
+                    if(result[5].buy_active_status == true){
+                        document.getElementById("litecoin_buy").innerText = 'Buy: ₦'+result[5].buy_rate;
+                    }
+                    if(result[5].sell_active_status == true){
+                        document.getElementById("litecoin_sell").innerText = 'Sell: ₦'+result[5].sell_rate; 
+                    }
+                    if(result[4].buy_active_status == true){
+                        document.getElementById("tron_buy").innerText = 'Buy: ₦'+result[4].buy_rate;
+                    }
+                    if(result[4].sell_active_status == true){
+                        document.getElementById("tron_sell").innerText = 'Sell: ₦'+result[4].sell_rate; 
+                    }
+                    if(result[6].buy_active_status == true){
+                        document.getElementById("ripple_buy").innerText = 'Buy: ₦'+result[6].buy_rate;
+                    }
+                    if(result[6].sell_active_status == true){
+                        document.getElementById("ripple_sell").innerText = 'Sell: ₦'+result[6].sell_rate; 
+                    }
+                    if(result[7].buy_active_status == true){
+                        document.getElementById("sol_buy").innerText = 'Buy: ₦'+result[7].buy_rate;
+                    }
+                    if(result[7].sell_active_status == true){
+                        document.getElementById("sol_sell").innerText = 'Sell: ₦'+result[7].sell_rate; 
+                    }
+                    if(result[13].buy_active_status == true){
+                        document.getElementById("bnb_buy").innerText = 'Buy: ₦'+result[13].buy_rate;
+                    }
+                    if(result[13].sell_active_status == true){
+                        document.getElementById("bnb_sell").innerText = 'Sell: ₦'+result[13].sell_rate; 
+                    }
+                }
+        })
+    }
+        </script>
+
+    <!--main js file start-->
+    <script src="js/jquery_min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/bit_timer.js"></script>
+    <script src="js/Chart.bundle.js"></script>
+    <script src="js/chart.js"></script>
+    <script src="js/plugin/rs_slider/jquery.themepunch.tools.min.js"></script>
+    <script src="js/plugin/rs_slider/jquery.themepunch.revolution.min.js"></script>
+    <script src="js/plugin/rs_slider/revolution.addon.snow.min.js"></script>
+    <script src="js/plugin/rs_slider/revolution.extension.actions.min.js"></script>
+    <script src="js/plugin/rs_slider/revolution.extension.carousel.min.js"></script>
+    <script src="js/plugin/rs_slider/revolution.extension.kenburn.min.js"></script>
+    <script src="js/plugin/rs_slider/revolution.extension.layeranimation.min.js"></script>
+    <script src="js/plugin/rs_slider/revolution.extension.migration.min.js"></script>
+    <script src="js/plugin/rs_slider/revolution.extension.navigation.min.js"></script>
+    <script src="js/plugin/rs_slider/revolution.extension.parallax.min.js"></script>
+    <script src="js/plugin/rs_slider/revolution.extension.slideanims.min.js"></script>
+    <script src="js/plugin/rs_slider/revolution.extension.video.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <!--main js file end-->
+</body>
+
+</html>
