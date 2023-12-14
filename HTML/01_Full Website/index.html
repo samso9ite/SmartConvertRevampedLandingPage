@@ -19,9 +19,13 @@ Purchase:
     <meta name="description" content="Bit Money" />
     <meta name="keywords" content="Bit Money" />
     <meta name="author" content="" />
+    <script src="js/jquery_min.js"></script>
+   
     <meta name="MobileOptimized" content="320" />
+    
     <!--srart theme style -->
     <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
     <link rel="stylesheet" type="text/css" href="css/fonts.css" />
@@ -33,16 +37,18 @@ Purchase:
     <link rel="stylesheet" type="text/css" href="js/plugin/rs_slider/settings.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>   
     <!-- favicon links -->
     <link rel="shortcut icon" type="image/png" href="images/fav.png" />
 </head>
 
 <body>
     <!-- preloader Start -->
-    <div id="preloader">
+    <!-- <div id="preloader">
         <div id="status"><img src="images/header/bitcoin-globe.gif" id="preloader_image" alt="loader">
         </div>
-    </div>
+    </div> -->
     <!-- btc top header wrapper Start -->
     <div class="btc_top_header_main_wrapper">
         <div class="container-fluid">
@@ -74,7 +80,7 @@ Purchase:
                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 hidden-xs">
                     <div class="gc_header_wrapper">
                         <div class="gc_logo">
-                            <a href="index.html"><img src="images/header/logo.png" alt="Logo" title="Bit Money"></a>
+                            <a href="index.html"><img src="images/SCLogo.png" alt="Logo" title="Smart Convert"></a>
                         </div>
                     </div>
                 </div>
@@ -84,7 +90,7 @@ Purchase:
                         <div class="gc_right_menu hidden-xs">
                             <ul>
                                
-                                <li class="btc_join_navi_btn" ><a href="">CREATE AN ACCOUNT</a></li>
+                                <li class="btc_join_navi_btn" ><a href="https://app.smartconvert.ng/signup">CREATE AN ACCOUNT</a></li>
                             </ul>
                         </div>
                         <div class="mainmenu hidden-xs">
@@ -481,7 +487,7 @@ Purchase:
                                         <div class="btc_step_icon_cont_wrapper">
                                             <h2><a href="#">Save Bank Details</a></h2>
                                             <p>Input your account details while our system automatically verify the account details.</p>
-                                            <h4><a href="https://app.smartconvert.ng/signin">Sign in</a></h4>
+                                            <h4><a href="https://app.smartconvert.ng/signin">Trade Coin</a></h4>
                                             <span>2</span>
                                         </div>
                                     </div>
@@ -513,7 +519,7 @@ Purchase:
                                         <div class="btc_step_icon_cont_wrapper">
                                             <h2><a href="#">Get Your Funds</a></h2>
                                             <p>Process time is instant, once our system confirms your transaction as successful, funds will be disbursed.</p>
-                                            <h4><a href="https://app.smartconvert.ng/signin">Sign in</a></h4>
+                                            <h4><a href="https://app.smartconvert.ng/signin">Trade Coin</a></h4>
                                             <span>4</span>
                                         </div>
                                     </div>
@@ -528,21 +534,19 @@ Purchase:
     </div>
    
     <!-- btc calcultor Wrapper Start -->
-    <div class="btc_calc_main_wrapper">
+    <div class="btc_calc_main_wrapper" style="">
         <div class="btc_calc_img_overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="btc_calc_heading_wrapper">
-                        <h5>Cryptocurrency Price Value Today</h5>
-                        <h3>Bitcoin Currency Calculator</h3>
-                        <span>#</span>
-                        <p>Nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat
-                            consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.</p>
+                        <h5>Coin Price Value Today</h5>
+                        <h3>Coin Currency Calculator</h3>
+                        <h4># Disclaimer</h4>
+                        <p>This is to inform the general public and our esteemed customers that Smart Convert only provide the following services: Buying, Selling and Exchange of Perfect Money, Bit Coin, USDT, Doge Coin, Lite Coin, Ethereum and e-currencies. We do NOT provide 'Lottery, Visa, Recharge Card Printing or vending, Promo, Form or scratch card selling nor any of such services. We hereby use this medium to warn the general public and our esteemed customers to always verify
+                            any transaction on our website or call our number +234 703 2829 121(8am-5pm)  or whatsapp  before making any payment or responding to any claim/offer in the name of Smart Convert.We will not in any way be held responsible for any unverified payment or claim.</p>
                     </div>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="divider_30">
+                    <div class="">
                         <div class="cal-convertor">
                             <script>
                                 baseUrl = "https://widgets.cryptocompare.com/";
@@ -561,10 +565,14 @@ Purchase:
                                     })();
                             </script>
                         </div>
-                        <ul>
-                            <li><a href="#">buy now</a></li>
+                        <ul><br >
+                            <li class="btc_join_navi_btn" ><a href="https://app.smartconvert.ng">Buy Now</a></li>
                         </ul>
                     </div>
+                    
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"  style="text-align: center; padding-left: 6rem;">
+                    <img src="./images/disclaimerImg.png"  width="78%"  />
                 </div>
             </div>
         </div>
@@ -659,38 +667,27 @@ Purchase:
     <div class="btc_testimonial_wrapper">
         <div class="container">
             <div class="row">
-                <div class="btc_testimonial_info">
-                    <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-                        <!-- Bottom Carousel Indicators -->
-                              <h1 style="text-align: left;">Our Clients Review</h1>
-                            <!-- </h1>
-                        <ol class="carousel-indicators">
-                            <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="images/content/testi_img1.jpg" alt="test">
-                            </li>
-                            <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="images/content/testi_img2.jpg" alt="test">
-                            </li>
-                            <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="images/content/testi_img3.jpg" alt="test">
-                            </li>
-
-                        </ol> -->
-
-                        <!-- Carousel Slides / Quotes -->
-                        <div class="carousel-inner text-center">
-                            <div class="btc_center_line"></div>
-                            <div class="item" id="testimonial">
-                                <div class="row">
-                                    <div class="col-sm-10 col-sm-offset-2 col-xs-offset-2 btc_testi_padding_zero">
-                                        <div class="btc_testi_quote_wrapper1"></div>
-                                        <div class="btc_testi_quote_wrapper2"></div>
-                                        <p> {{tesimony.message}} </p>
-                                        <div class="btc_testi_cont_bottom_line"></div>
-                                        <h1>{{testimony.user.first_name}} {{testimony.user.last_name}}</h1>
-                                    </div>
-                                </div>
+                <div class="btc_testimonial_info" id="testimonial">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="btc_services_heading_main_wrapper">
+                            <div class="btc_services_heading_wrapper">
+                                <p>Our Customers Thought About Us</p>
+                                <h1>Customer Reviews</h1>
+                                <span>#</span>
                             </div>
-                           
                         </div>
                     </div>
+                    <!-- <div class="row mt-4"> -->
+                        <div class="col-lg-12"><br><br>
+                            <div class="col-sm-3 btc_testi_padding_zero"  v-for="testimony in testimonials" :key="testimony">
+                            <p>“ {{testimony.message}} ”</p>
+                            <div class="btc_testi_cont_bottom_line"></div>
+                            <h4>by {{testimony.user.first_name}} {{testimony.user.last_name}}</h4>
+                            </div>
+
+                        </div>
+                    <!-- </div> -->
+                    <!--  -->
                 </div>
             </div>
         </div>
@@ -702,7 +699,7 @@ Purchase:
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     <div class="btc_footer_logo_left">
-                        <a href="#"><img src="images/content/footer_logo.png" alt="logo"/></a>
+                        <a href="#"><img src="images/SCLogo.png" alt="logo"/></a>
                     </div>
                     <div class="btc_footer_logo_right">
                         <p> 106, ikorodu road,off oyebanjo street, Fadeyi Yaba Lagos</p>
@@ -753,24 +750,24 @@ Purchase:
         
         getRates()
         function getValues(){
-        $.ajax({
-                type: "GET",
-                url: "https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,DOGE,USDT,TRX,SOL,XRP,ETH,BNB,LTC&tsyms=USD&api_key=40c4cada7ddcb05ecedb554f444d3e51924ff6115d4ed983eb868feaf50b098d",
-                success: function (result) {
-                    console.log(result.BNB.USD);
-                    document.getElementById("btc_price").innerText = result.BTC.USD 
-                    document.getElementById("eth_price").innerText = result.ETH.USD 
-                    document.getElementById("doge_price").innerText = result.DOGE.USD
-                    document.getElementById("ltc_price").innerText = result.LTC.USD
-                    document.getElementById("usdt_price").innerText = result.USDT.USD
-                    document.getElementById("tron_price").innerText = result.TRX.USD
-                    document.getElementById("solana_price").innerText = result.SOL.USD
-                    document.getElementById("bnb_price").innerText = result.BNB.USD
-                    document.getElementById("xrp_price").innerText = result.XRP.USD
-                   
-                },
+            $.ajax({
+                    type: "GET",
+                    url: "https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,DOGE,USDT,TRX,SOL,XRP,ETH,BNB,LTC&tsyms=USD&api_key=40c4cada7ddcb05ecedb554f444d3e51924ff6115d4ed983eb868feaf50b098d",
+                    success: function (result) {
+                        console.log(result.BNB.USD);
+                        document.getElementById("btc_price").innerText = result.BTC.USD 
+                        document.getElementById("eth_price").innerText = result.ETH.USD 
+                        document.getElementById("doge_price").innerText = result.DOGE.USD
+                        document.getElementById("ltc_price").innerText = result.LTC.USD
+                        document.getElementById("usdt_price").innerText = result.USDT.USD
+                        document.getElementById("tron_price").innerText = result.TRX.USD
+                        document.getElementById("solana_price").innerText = result.SOL.USD
+                        document.getElementById("bnb_price").innerText = result.BNB.USD
+                        document.getElementById("xrp_price").innerText = result.XRP.USD
+                    
+                    },
                 });    
-            };
+        };
     
         // Get coin rates
         function getRates(){
@@ -778,7 +775,6 @@ Purchase:
                 type: "GET",
                 url: "https://api.smartconvert.ng/api/v1/list-coin",
                 success: function (result) {
-                   console.log(result)
                     if(result[0].buy_active_status == true){
                         document.getElementById("btc_buy").innerText ='Buy: ₦'+result[0].buy_rate; 
                     }
@@ -833,11 +829,11 @@ Purchase:
                     if(result[7].sell_active_status == true){
                         document.getElementById("sol_sell").innerText = 'Sell: ₦'+result[7].sell_rate; 
                     }
-                    if(result[13].buy_active_status == true){
-                        document.getElementById("bnb_buy").innerText = 'Buy: ₦'+result[13].buy_rate;
+                    if(result[9].buy_active_status == true){
+                        document.getElementById("bnb_buy").innerText = 'Buy: ₦'+result[9].buy_rate;
                     }
-                    if(result[13].sell_active_status == true){
-                        document.getElementById("bnb_sell").innerText = 'Sell: ₦'+result[13].sell_rate; 
+                    if(result[9].sell_active_status == true){
+                        document.getElementById("bnb_sell").innerText = 'Sell: ₦'+result[9].sell_rate; 
                     }
                 }
         })
@@ -845,14 +841,18 @@ Purchase:
         </script>
 
     <!--main js file start-->
-    <script src="js/jquery_min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+    <script src="./data.js"></script>
+  
     <script src="js/bootstrap.js"></script>
     <script src="js/modernizr.js"></script>
     <script src="js/parallax.min.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/bit_timer.js"></script>
-    <script src="js/Chart.bundle.js"></script>
-    <script src="js/chart.js"></script>
+    <!-- <script src="js/Chart.bundle.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> -->
+    <!-- <script src="js/chart.js"></script> -->
     <script src="js/plugin/rs_slider/jquery.themepunch.tools.min.js"></script>
     <script src="js/plugin/rs_slider/jquery.themepunch.revolution.min.js"></script>
     <script src="js/plugin/rs_slider/revolution.addon.snow.min.js"></script>
